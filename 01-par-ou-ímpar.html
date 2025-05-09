@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto - Par ou Ímpar</title>
+  <link rel="stylesheet" href="01-style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Par ou Ímpar:</h1>
+    <p>Descupra se os numeros que você está pensando são pares ou ímpares.</p>
+    <br>
+    <a href="index.html" class="voltar">⬅ Voltar</a>
+  </header>
+
+  <div class="background"></div>
+  <main class="container">
+    <div class="form">
+      <input type="number" id="numero" placeholder="Digite um número" />
+      <button onclick="verificarParOuImpar()">Verificar</button>
+      <div id="reproduzido" class="reproduzido"></div>
+      <p id="resultado"></p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Meu Site. Todos os direitos reservados.
+  </footer>
+
+  <script src="01-script.js"></script>
+</body>
+
+</html>

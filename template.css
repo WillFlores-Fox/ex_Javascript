@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body, html {
+  height: 100%;
+}
+.background {
+  background: url('https://images.unsplash.com/photo-1508780709619-79562169bc64') no-repeat center center/cover;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(5px) brightness(0.6);
+  z-index: -1;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+.container h1 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+.container p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #00b4d8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #0096c7;
+}
+.voltar {
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.voltar:hover {
+  text-decoration: underline;
+}
