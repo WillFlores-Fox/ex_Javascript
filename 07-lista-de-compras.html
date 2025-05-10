@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projeto - Lista de Compras</title>
-  <link rel="stylesheet" href="template.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto - Par ou Ímpar</title>
+  <link rel="stylesheet" href="07-style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
+  <header>
+    <h1>Meu Site Incrível</h1>
+    <p>Veja os destaques em nossos cards abaixo</p>
+    <a href="index.html" class="voltar">⬅ Voltar</a>
+  </header>
+
   <div class="background"></div>
   <main class="container">
-    <h1>Lista de Compras</h1>
-    <p>Adicione itens e gerencie sua lista de compras:</p>
     <div class="form">
-      <!-- Insira os inputs e botões aqui -->
+      <input type="text" id="nome" placeholder="Nome do produto">
+      <input type="number" id="quantidade" placeholder="Quantidade" min="1">
+      <input type="number" id="valor" placeholder="Valor unitário" step="0.01" min="0">
+      <button onclick="adicionarProduto()">Adicionar</button>
+      <button onclick="limparLista()">Limpar Lista</button>
+      <p id="totalCompra">Total: R$ 0,00</p>
+      <ul id="lista"></ul>
     </div>
-    <a href="../index.html" class="voltar">⬅ Voltar</a>
+
+    </div>
   </main>
+
+  <footer>
+    &copy; 2025 Meu Site. Todos os direitos reservados.
+  </footer>
+
+  <script src="07-script.js"></script>
 </body>
+
 </html>

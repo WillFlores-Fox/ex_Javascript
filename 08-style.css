@@ -29,7 +29,7 @@ header p {
 }
 
 .background {
-    background: url('https://sdmntprwestus2.oaiusercontent.com/files/00000000-56fc-61f8-9b17-64ec0e56d1e5/raw?se=2025-05-09T23%3A25%3A22Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=5cab1ff4-c20d-41dc-babb-df0c2cc21dd4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-09T22%3A18%3A21Z&ske=2025-05-10T22%3A18%3A21Z&sks=b&skv=2024-08-04&sig=Bd75wCF0BOcCOKk6Bgc12gJ6a0b3j5oq6FxBHJjW%2BgA%3D') no-repeat center center/cover;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Palindrom_TENET.svg/250px-Palindrom_TENET.svg.png') no-repeat center center/cover;
     position: fixed;
     top: 0;
     left: 0;
@@ -102,18 +102,15 @@ button:hover {
     text-decoration: underline;
 }
 
-.reproduzido {
-    margin-top: 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    color: red;
+#resultado p {
+    font-size: 30px;
 }
 
 footer {
     background: black;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 43px;
     margin-top: auto;
 }
 
