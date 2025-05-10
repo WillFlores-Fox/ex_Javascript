@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projeto - Simulador de Caixa Eletrônico</title>
-  <link rel="stylesheet" href="template.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto - Par ou Ímpar</title>
+  <link rel="stylesheet" href="11-style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
 <body>
+  <header>
+    <h1>Par ou Ímpar:</h1>
+    <p>Descupra se os numeros que você está pensando são pares ou ímpares.</p>
+    <br>
+    <a href="index.html" class="voltar">⬅ Voltar</a>
+  </header>
+
   <div class="background"></div>
   <main class="container">
-    <h1>Simulador de Caixa Eletrônico</h1>
-    <p>Digite um valor para simular as notas do caixa:</p>
     <div class="form">
-      <!-- Insira os inputs e botões aqui -->
-    </div>
-    <a href="../index.html" class="voltar">⬅ Voltar</a>
+      <input type="number" id="valor" placeholder="Digite o valor (R$)">
+      <button onclick="simularCaixa()">Simular Saque</button>
+      <div id="resultado" class="resultado-notas"></div>
+    </div>    
   </main>
+
+  <footer>
+    &copy; 2025 Meu Site. Todos os direitos reservados.
+  </footer>
+
+  <script src="11-script.js"></script>
 </body>
+
 </html>

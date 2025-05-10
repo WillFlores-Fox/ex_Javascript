@@ -16,7 +16,7 @@ header {
     background: black;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 44px 20px;
 }
 
 header h1 {
@@ -29,7 +29,7 @@ header p {
 }
 
 .background {
-    background: url('https://rotaflux.com.br/wp-content/uploads/2024/02/semaforo-inteligente-1024x683.jpeg') no-repeat center center/cover;
+    background: url('https://s2.static.brasilescola.uol.com.br/be/2023/02/termometro-marcando-alta-temperatura-apontado-para-o-sol-e-representando-a-ideia-de-calor-e-de-temperatura.jpg') no-repeat center center/cover;
     position: fixed;
     top: 0;
     left: 0;
@@ -102,33 +102,51 @@ button:hover {
     text-decoration: underline;
 }
 
-.semaforo {
-    width: 80px;
-    background: #222;
-    padding: 15px;
-    border-radius: 10px;
-    margin: auto;
+#resultado {
+    font-weight: bold;
+    margin-top: 10px;
+    transition: color 0.3s;
+  }
+  .resultado-frio {
+    color: #2196f3;
+  }
+  .resultado-morno {
+    color: #ff9800;
+  }
+  .resultado-quente {
+    color: #f44336;
   }
   
-  .luz {
-    width: 50px;
-    height: 50px;
-    background: #444;
-    border-radius: 50%;
-    margin: 10px auto;
-    transition: background 0.3s;
+  select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    transition: 0.3s;
+    appearance: none; /* Remove a seta padrão */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10"><path fill="%23333" d="M1 1l6 6 6-6"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
   }
   
-  .acesa-vermelho { background: red; }
-  .acesa-amarelo { background: yellow; }
-  .acesa-verde { background: limegreen; }
+  select:hover {
+    border-color: #999;
+  }
   
+  select:focus {
+    border-color: #2196f3;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+  }  
 
 footer {
     background: black;
     color: white;
     text-align: center;
-    padding: 43px;
+    padding: 20px;
     margin-top: auto;
 }
 

@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projeto - Cronômetro</title>
-  <link rel="stylesheet" href="template.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto - Par ou Ímpar</title>
+  <link rel="stylesheet" href="12-style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
+
 <body>
+  <header>
+    <h1>Par ou Ímpar:</h1>
+    <p>Descupra se os numeros que você está pensando são pares ou ímpares.</p>
+    <br>
+    <a href="index.html" class="voltar">⬅ Voltar</a>
+  </header>
+
   <div class="background"></div>
   <main class="container">
-    <h1>Cronômetro</h1>
-    <p>Use os botões para controlar o cronômetro:</p>
-    <div class="form">
-      <!-- Insira os inputs e botões aqui -->
+    <div class="cronometro-circulo">
+      <div id="display">00:00:00</div>
+      <div class="botoes">
+        <button onclick="iniciar()">Iniciar</button>
+        <button onclick="pausar()">Pausar</button>
+        <button onclick="zerar()">Zerar</button>
+      </div>
     </div>
-    <a href="../index.html" class="voltar">⬅ Voltar</a>
   </main>
+
+  <footer>
+    &copy; 2025 Meu Site. Todos os direitos reservados.
+  </footer>
+
+  <script src="12-script.js"></script>
 </body>
+
 </html>

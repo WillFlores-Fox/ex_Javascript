@@ -16,7 +16,7 @@ header {
     background: black;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 44px 20px;
 }
 
 header h1 {
@@ -29,7 +29,7 @@ header p {
 }
 
 .background {
-    background: url('https://rotaflux.com.br/wp-content/uploads/2024/02/semaforo-inteligente-1024x683.jpeg') no-repeat center center/cover;
+    background: url('https://seucreditodigital.com.br/wp-content/uploads/2022/12/caixa-eletronico.jpg') no-repeat center center/cover;
     position: fixed;
     top: 0;
     left: 0;
@@ -102,33 +102,32 @@ button:hover {
     text-decoration: underline;
 }
 
-.semaforo {
-    width: 80px;
-    background: #222;
-    padding: 15px;
-    border-radius: 10px;
-    margin: auto;
-  }
-  
-  .luz {
-    width: 50px;
-    height: 50px;
-    background: #444;
-    border-radius: 50%;
-    margin: 10px auto;
-    transition: background 0.3s;
-  }
-  
-  .acesa-vermelho { background: red; }
-  .acesa-amarelo { background: yellow; }
-  .acesa-verde { background: limegreen; }
-  
+#resultado p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.resultado-notas.animar {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 footer {
     background: black;
     color: white;
     text-align: center;
-    padding: 43px;
+    padding: 48px;
     margin-top: auto;
 }
 

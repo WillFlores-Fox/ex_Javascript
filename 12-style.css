@@ -16,7 +16,7 @@ header {
     background: black;
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 44px 20px;
 }
 
 header h1 {
@@ -29,7 +29,7 @@ header p {
 }
 
 .background {
-    background: url('https://rotaflux.com.br/wp-content/uploads/2024/02/semaforo-inteligente-1024x683.jpeg') no-repeat center center/cover;
+    background: url('https://seucreditodigital.com.br/wp-content/uploads/2022/12/caixa-eletronico.jpg') no-repeat center center/cover;
     position: fixed;
     top: 0;
     left: 0;
@@ -102,33 +102,54 @@ button:hover {
     text-decoration: underline;
 }
 
-.semaforo {
-    width: 80px;
-    background: #222;
-    padding: 15px;
-    border-radius: 10px;
-    margin: auto;
-  }
-  
-  .luz {
-    width: 50px;
-    height: 50px;
-    background: #444;
+.cronometro-circulo {
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
-    margin: 10px auto;
-    transition: background 0.3s;
+    background: radial-gradient(circle at center, #2c3e50, #1a252f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    margin: 40px auto;
+    padding: 20px;
+    color: #fff;
+    position: relative;
   }
   
-  .acesa-vermelho { background: red; }
-  .acesa-amarelo { background: yellow; }
-  .acesa-verde { background: limegreen; }
+  #display {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #ffffff;
+  }
   
+  .botoes {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .botoes button {
+    background-color: #000000;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botoes button:hover {
+    background-color: #444444;
+  }  
 
 footer {
     background: black;
     color: white;
     text-align: center;
-    padding: 43px;
+    padding: 48px;
     margin-top: auto;
 }
 
