@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projeto - Simulador de Notas Escolares</title>
-  <link rel="stylesheet" href="template.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto - Par ou Ímpar</title>
+  <link rel="stylesheet" href="20-style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
+
 <body>
+  <header>
+    <h1>Par ou Ímpar:</h1>
+    <p>Descupra se os numeros que você está pensando são pares ou ímpares.</p>
+    <br>
+    <a href="index.html" class="voltar"><i class="fa-solid fa-house" ></i></a>a>
+  </header>
+
   <div class="background"></div>
   <main class="container">
-    <h1>Simulador de Notas Escolares</h1>
-    <p>Digite suas notas para calcular a média e ver o resultado:</p>
-    <div class="form">
-      <!-- Insira os inputs e botões aqui -->
-    </div>
-    <a href="../index.html" class="voltar">⬅ Voltar</a>
+    <div class="project-container">
+      <h2>Simulador de Notas Escolares</h2>
+      <br>
+      <input type="number" placeholder="Digite uma nota" id="notaInput" min="0" max="10">
+      <br>
+      <button onclick="adicionarNota()">Adicionar Nota</button>
+      <button onclick="calcularMedia()">Calcular Média</button>
+      <button onclick="limparNotas()" style="background-color: crimson;">Limpar</button>
+    
+      <div id="notasLista" style="margin-top: 15px;"></div>
+      <div id="resultado" style="margin-top: 20px;"></div>
+    </div>    
   </main>
+
+  <footer>
+    &copy; 2025 Meu Site. Todos os direitos reservados.
+  </footer>
+
+  <script src="20-script.js"></script>
 </body>
+
 </html>

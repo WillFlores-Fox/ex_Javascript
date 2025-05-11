@@ -29,7 +29,7 @@ header p {
 }
 
 .background {
-    background: url('https://blobportais.paranabanco.com.br/portalblogaposentado/2022/12/Dicas-para-criar-senhas-seguras.jpg') no-repeat center center/cover;
+    background: url('https://static.escolakids.uol.com.br/2020/06/numeros-primos.jpg') no-repeat center center/cover;
     position: fixed;
     top: 0;
     left: 0;
@@ -43,12 +43,9 @@ header p {
     max-width: 500px;
     margin: 50px auto;
     padding: 30px;
-    background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
     border-radius: 15px;
     text-align: center;
     color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .container h1 {
@@ -104,48 +101,35 @@ button:hover {
 }
 
 .project-container {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
     padding: 20px;
     border-radius: 16px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
     max-width: 400px;
     margin: 0 auto;
     color: #fff;
+    text-align: center;
   }
   
-  .project-container input,
-  .project-container button {
-    display: block;
+  input {
     width: 100%;
-    margin-top: 10px;
     padding: 10px;
+    margin-top: 10px;
     border-radius: 8px;
     border: none;
     font-size: 1rem;
   }
   
-  .options {
-    margin-top: 10px;
-  }
-  
-  .options label {
-    display: block;
-    font-size: 0.9rem;
-    margin: 5px 0;
-  }
-  
   button {
-    background-color: #4caf50;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #009688;
     color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
     cursor: pointer;
-  }
-  
-  #result {
-    background-color: #333;
-    color: #0f0;
-    font-family: monospace;
-  }
+  }    
   
 footer {
     background: black;

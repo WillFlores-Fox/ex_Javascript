@@ -29,7 +29,7 @@ header p {
 }
 
 .background {
-    background: url('https://blobportais.paranabanco.com.br/portalblogaposentado/2022/12/Dicas-para-criar-senhas-seguras.jpg') no-repeat center center/cover;
+    background: url('https://media.licdn.com/dms/image/v2/C4E12AQFAeVccpZv54A/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1543248542722?e=2147483647&v=beta&t=VQ5X6B4q9KBTm352S4a9PyHG5nSsjlwWC97NwA7QvX0') no-repeat center center/cover;
     position: fixed;
     top: 0;
     left: 0;
@@ -43,12 +43,9 @@ header p {
     max-width: 500px;
     margin: 50px auto;
     padding: 30px;
-    background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
     border-radius: 15px;
     text-align: center;
     color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .container h1 {
@@ -112,9 +109,11 @@ button:hover {
     max-width: 400px;
     margin: 0 auto;
     color: #fff;
+    text-align: center;
   }
   
   .project-container input,
+  .project-container select,
   .project-container button {
     display: block;
     width: 100%;
@@ -125,28 +124,22 @@ button:hover {
     font-size: 1rem;
   }
   
-  .options {
-    margin-top: 10px;
-  }
-  
-  .options label {
-    display: block;
-    font-size: 0.9rem;
-    margin: 5px 0;
-  }
-  
   button {
-    background-color: #4caf50;
+    background-color: #000000;
     color: white;
     cursor: pointer;
   }
   
-  #result {
-    background-color: #333;
-    color: #0f0;
-    font-family: monospace;
+  #feedback {
+    margin-top: 10px;
+    font-weight: bold;
   }
   
+  #remaining {
+    font-size: 0.9rem;
+    color: #ccc;
+  }  
+
 footer {
     background: black;
     color: white;

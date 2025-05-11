@@ -16,7 +16,7 @@ header {
     background: black;
     color: white;
     text-align: center;
-    padding: 38px 20px;
+    padding: 29px 20px;
 }
 
 header h1 {
@@ -96,6 +96,7 @@ button:hover {
     text-decoration: none;
     font-weight: bold;
     transition: 0.2s;
+    font-size: 30px;
 }
 
 .voltar:hover {
@@ -106,7 +107,7 @@ footer {
     background: black;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     margin-top: auto;
 }
 

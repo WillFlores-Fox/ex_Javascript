@@ -6,30 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Projeto - Par ou Ímpar</title>
   <link rel="stylesheet" href="04-style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 
 <body>
   <header>
-    <h1>Meu Site Incrível</h1>
-    <p>Veja os destaques em nossos cards abaixo</p>
-    <a href="index.html" class="voltar">⬅ Voltar</a>
+    <h1>Calculadora básica</h1>
+    <p>Resolva seus calculos de forma rápida com essa calculadora.</p>
+    <a href="index.html" class="voltar"><i class="fa-solid fa-house" ></i></a>
   </header>
 
   <div class="background"></div>
   <main class="container">
-    <h1>Descubra:</h1>
-    <br>
     <div class="form">
       <input type="number" id="num1" placeholder="Número 1">
       <input type="number" id="num2" placeholder="Número 2">
-      
+
       <select id="operacao" class="combo">
         <option value="soma">Adição (+)</option>
         <option value="subtracao">Subtração (−)</option>
         <option value="multiplicacao">Multiplicação (×)</option>
         <option value="divisao">Divisão (÷)</option>
       </select>
-    
+
       <button onclick="calcular()">Calcular</button>
       <p id="resultado"></p>
     </div>

@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projeto - Enquete com Votos</title>
-  <link rel="stylesheet" href="template.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto - Par ou Ímpar</title>
+  <link rel="stylesheet" href="15-style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
+
 <body>
+  <header>
+    <h1>Par ou Ímpar:</h1>
+    <p>Descupra se os numeros que você está pensando são pares ou ímpares.</p>
+    <br>
+    <a href="index.html" class="voltar"><i class="fa-solid fa-house" ></i></a>
+  </header>
+
   <div class="background"></div>
   <main class="container">
-    <h1>Enquete com Votos</h1>
-    <p>Vote em uma das opções e veja o resultado da enquete:</p>
-    <div class="form">
-      <!-- Insira os inputs e botões aqui -->
+    <div class="project-container">
+      <h2>Enquete:</h2>
+
+      <div id="opcoes">
+        <button onclick="votar(0)">opção 1</button>
+        <button onclick="votar(1)">opção 2</button>
+        <button onclick="votar(2)">opção 3</button>
+        <br>
+        <button onclick="limparVotos()" style="background-color: crimson; margin-top: 10px;">Limpar Votos</button>
+      </div>
+
+      <h3>Resultados:</h3>
+      <ul id="resultados">
+      </ul>
     </div>
-    <a href="../index.html" class="voltar">⬅ Voltar</a>
   </main>
+
+  <footer>
+    &copy; 2025 Meu Site. Todos os direitos reservados.
+  </footer>
+
+  <script src="15-script.js"></script>
 </body>
+
 </html>
